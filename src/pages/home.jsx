@@ -56,38 +56,56 @@ const Home = (props) => {
           </div>
         </div>
       </nav>
-      <div class="container bg-white">
-        <div class="row d-flex justify-content-center align-items-center vh-100">
+      <header class="container">
+        <div
+          id="header"
+          class="row d-flex justify-content-center align-items-center"
+        >
           <div class="col-md-6 d-md-flex flex-column justify-content-center">
             <div class="h-100">
               <h1
                 id="hydrocut-heading"
-                class="text-center text-md-start fw-bolder bluecolor-main"
+                class="text-center text-md-start fw-bolder bluecolor-main py-md-3"
               >
-                Quality{" "}
-                <span class="yellow-variant">
-                  MWFs and Lubes for your Equipments
-                </span>{" "}
+                Quality MWFs and Lubes for your Equipments
               </h1>
-              <p>
-                  For every machinery to stay healthy and serve the business while putting on the lowest possible 
+              <h3>
+                When it comes to Quality, Hydrocut is the brand you've always
+                trusted
+              </h3>
+              <p className="py-md-2">
+                For every machinery to stay healthy and serve the business, it
+                is always important that it gives its best even in the toughest
+                of situations. When you know the importance of quality
+                lubricants, your machines know the importance of performance!
+                <br />
               </p>
-              <a class="primary-button-main" href="#">
-                Talk to Experts
-              </a>
+              <div className="py-md-4">
+                <a class="primary-button-main" href="#">
+                  Talk to Experts
+                </a>
+              </div>
             </div>
           </div>
           <div class="col-md-6 h-100 d-flex justify-items-center align-items-center">
             <img class="img-fluid w-100" src="assets/img/bitmap.png" />
           </div>
         </div>
-      </div>
+      </header>
       <div class="container">
         <div class="row d-flex justify-content-center align-items-center vh-100 flex-row-reverse">
           <div class="col-md-6 d-md-flex flex-column justify-content-center">
             <div>
-              <h1 class="text-center text-md-start">Why Hydrocut</h1>
-              <p>wths thsi&nbsp;</p>
+              <h1 class="text-center text-md-start">About Hydrocut</h1>
+              <h6 class="text-center text-md-start">
+                Building up a good company is like raising up an extraordinary
+                kid, the pain and perseverance it takes to inculcate values in
+                the kid to make them tough and be able to withstand every
+                situation. Your machines are those values which makes your
+                company good. Keep believing your child and always fuel up their
+                values.
+              </h6>
+              <p>&nbsp;</p>
               <div class="row">
                 <ul class="col-6">
                   <li>Item 1</li>

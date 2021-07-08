@@ -10,9 +10,12 @@ $blue-alpha: rgba(54, 55, 97, 0.329);
 #hydrocut-heading{
     font-size: 300%;
 }
-body{
-    background: #f1f8ff;
+#header{
+    height: 80vh;
 }
+// body{
+//     background: #f1f8ff;
+// }
 
 .green-blue-gradient{
     background: linear-gradient(0deg, blue,green) !important;
