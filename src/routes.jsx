@@ -6,7 +6,7 @@ const Home = lazy(() => import("./pages/home"));
 
 // Array of routes
 const routes = [
-  <Switch>
+  <Switch>,
     <Route path="/" exact component={Home} key="home" />,
   </Switch>,
 ];

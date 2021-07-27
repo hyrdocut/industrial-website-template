@@ -4,7 +4,7 @@ import reportWebVitals from "./reportWebVitals";
 import AOS from "aos";
 import routes from "./routes";
 import { BrowserRouter as Router } from "react-router-dom";
-import "./assets/scss/main-styles.scss";
+import "./assets/sass/main-styles.sass";
 
 import "./index.css";
 import "bootstrap/dist/css/bootstrap.css";

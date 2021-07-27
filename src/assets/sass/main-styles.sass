@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Festive&family=Fredoka+One&family=Otomanopee+One&family=Yomogi&display=swap")
+
+$blue-primary: #1a1a63
+$blue-muted: rgb(49, 49, 88)
+$blue-alpha: rgba(54, 55, 97, 0.329)
+
+*
+    font-family: "Otomanopee One"
+    font-weight: 900
+
+#hydrocut-heading
+    font-size: 300%
+
+#header,
+#about-hydrocut,
+#features
+    height: 80vh
+    overflow: visible
+
+#categories
+    height: 40vh
+
+.gray-background
+    background: rgb(240, 240, 255)
+
+.yomogi-font
+    font-family: "Yomogi" !important
+
+.otomanopee-font
+    font-family: "Otomanopee One"
+
+body
+    animation: backgroundChanging 4s ease-in 2s infinite alternate
+
+@keyframes backgroundChanging
+    0%
+        background-color: rgb(179, 255, 0) !important
+    // background-color: red
+
+    100%
+        background-color: rgb(251, 215, 195) !important
+
+.green-blue-gradient
+    background: linear-gradient(0deg, blue, green) !important
+    background-color: red !important
+
+.bluecolor-main
+    color: $blue-primary
+
+.bluecolor-muted
+    color: $blue-muted
+
+.primary-button-main
+    color: $blue-primary
+    background: $blue-alpha
+    padding: 10px 20px
+    border-radius: 5px
+    text-decoration: none
+    border: 1px solid $blue-primary
+    &:hover
+        color: white
+        background: $blue-primary
+
+// =============components
+
+.header-image-container
+    position: relative
+
+.first-header-image
+    position: absolute
+    height: 600px
+    top: 50px
+
+.second-header-image
+    z-index: -1
+    position: absolute
+    top: 150px
+    left: 290px
+    height: 500px
+.categories-card
+    height: 100%
+    width: 100%
+    background: rgb(240, 240, 255)
+    border-radius: 10px
+.product-card
+    background: rgb(240, 240, 255)
+    border-radius: 30px
+    color: $blue-primary
+
+// .bg-pattern
+//     background-image: url("../img/header-pattern.png")
+//     background-size: cover
+//     width: 100%
+//     z-index: -10
+
+//     overflow: visible
+// 
