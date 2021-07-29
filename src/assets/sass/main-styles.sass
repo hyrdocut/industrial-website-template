@@ -1,20 +1,40 @@
-@import url("https://fonts.googleapis.com/css2?family=Festive&family=Fredoka+One&family=Otomanopee+One&family=Yomogi&display=swap")
-
-$blue-primary: #1a1a63
-$blue-muted: rgb(49, 49, 88)
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@900&family=Roboto:ital,wght@0,400;1,700&display=swap');
+$blue-primary: #093e66
+$blue-muted: #185c8f
+$blue-light: #185c8f
+$blue-background: #f4fafd
 $blue-alpha: rgba(54, 55, 97, 0.329)
 
 *
     font-family: "Otomanopee One"
     font-weight: 900
+    // border: .00001px solid red
+    background-color: $blue-background
 
 #hydrocut-heading
-    font-size: 300%
+    font-size: 400%
+    font-family: "Martel"
+    font-weight: 900
+    color: $blue-primary
+#hydrocut-tagline
+    font-size: 200%
+    width: 80%
+    line-height: 100%
+    font-family: "Roboto"
+    font-weight: 700
+    font-style: italic
+    color: $blue-muted
+#hydrocut-para
+    font-size: 120%
+    font-family: "Roboto"
+    font-weight: 400
+    color: $blue-light
+    width: 85%
 
 #header,
 #about-hydrocut,
 #features
-    height: 80vh
+    height: 82vh
     overflow: visible
 
 #categories
@@ -23,11 +43,11 @@ $blue-alpha: rgba(54, 55, 97, 0.329)
 .gray-background
     background: rgb(240, 240, 255)
 
-.yomogi-font
-    font-family: "Yomogi" !important
+// .yomogi-font
+//     font-family: "Yomogi" !important
 
-.otomanopee-font
-    font-family: "Otomanopee One"
+// .otomanopee-font
+//     font-family: "Otomanopee One"
 
 body
     animation: backgroundChanging 4s ease-in 2s infinite alternate

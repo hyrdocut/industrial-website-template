@@ -1,7 +1,7 @@
 const Navigation = (props) => {
  return (
    <>
-     <nav class="navbar navbar-light navbar-expand-md navigation-clean">
+     <nav class="navbar  navbar-expand-md bg-danger navigation-clean">
        <div class="container">
          <a class="navbar-brand" href="#">
            Hydrocut

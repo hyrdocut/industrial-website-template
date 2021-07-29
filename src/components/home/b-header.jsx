@@ -6,13 +6,13 @@ import {motion} from 'framer-motion'
 const Header = (props) => {
   return (
     <>
-      <header class="container">
+      <header class="container-fluid">
         <div
           id="header"
           class="row d-flex justify-content-center align-items-center"
         >
-          <div class="col-md-6 d-md-flex flex-column justify-content-center">
-            <div class="h-100">
+          <div class="col-md-7 d-md-flex flex-column justify-content-center align-content-center row">
+            <div class="h-100 col-md-10">
               <motion.h1
                 id="hydrocut-heading"
                 animate={{ x: 0, opacity: 1 }}
@@ -20,9 +20,10 @@ const Header = (props) => {
                 transition={{ type: "spring", stiffness: 200 }}
                 class="otomanopee-font text-center text-md-start fw-bolder bluecolor-main py-md-3"
               >
-                Quality MWFs and Lubes for your Equipments
+                Quality MWFs and Lubes For your Equipments
               </motion.h1>
               <motion.h3
+               id="hydrocut-tagline"
                 animate={{ x: 0, opacity: 1 }}
                 initial={{ x: -1000, opacity: 0 }}
                 transition={{ delay: 0.8, type: "spring", stiffness: 100 }}
@@ -30,6 +31,7 @@ const Header = (props) => {
                 When it comes to Quality, Hydrocut is the brand to trust
               </motion.h3>
               <motion.p
+              id="hydrocut-para"
                 animate={{ x: 0, opacity: 1 }}
                 initial={{ x: -1000, opacity: 0 }}
                 transition={{ delay: 1.2, type: "spring", stiffness: 50 }}
@@ -48,7 +50,7 @@ const Header = (props) => {
               </div>
             </div>
           </div>
-          <div class="col-md-6 h-100 d-flex d-md-block justify-items-center align-items-center">
+          <div class="col-md-5 h-100 d-flex d-md-block justify-items-center align-items-center">
             <span className="header-image-container">
               <motion.img
                 animate={{ x: 0, y: 0, rotateX: 0 }}
