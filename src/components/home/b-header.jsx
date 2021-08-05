@@ -1,6 +1,4 @@
-import BreakOil from "../../assets/img/break-oil.png";
-// import BreakOil from "../../";
-import AbsBreak from "../../assets/img/abs-brake.png";
+import HeaderBanner from "../../assets/img/header-image.png";
 import {motion} from 'framer-motion'
 
 const Header = (props) => {
@@ -11,6 +9,7 @@ const Header = (props) => {
           id="header"
           class="row d-flex justify-content-center align-items-center"
         >
+            <div className="col-md-1 col-0"></div>
           <div class="col-md-7 d-md-flex flex-column justify-content-center align-content-center row">
             <div class="h-100 col-md-10">
               <motion.h1
@@ -50,23 +49,15 @@ const Header = (props) => {
               </div>
             </div>
           </div>
-          <div class="col-md-5 h-100 d-flex d-md-block justify-items-center align-items-center">
+          <div class="col-md-4 h-100 d-flex d-md-block justify-items-center align-items-center">
             <span className="header-image-container">
-              <motion.img
-                animate={{ x: 0, y: 0, rotateX: 0 }}
-                initial={{ x: -1000, y: -600, rotateX: 120 }}
-                transition={{ delay: 1.2, type: "spring", stiffness: 50 }}
+              <img
+                // animate={{ x: 0, y: 0, rotateX: 0 }}
+                // initial={{ x: -1000, y: -600, rotateX: 120 }}
+                // transition={{ delay: 1.2, type: "spring", stiffness: 50 }}
                 alt="Hydrocut"
-                class="first-header-image"
-                src={BreakOil}
-              />
-              <motion.img
-                animate={{  rotateY: 0 }}
-                initial={{ rotateY: 160 }}
-                transition={{ delay: 1.2, type: "spring", stiffness: 50 }}
-                alt="Hydrocut"
-                class="second-header-image"
-                src={AbsBreak}
+                class="header-image"
+                src={HeaderBanner}
               />
             </span>
           </div>

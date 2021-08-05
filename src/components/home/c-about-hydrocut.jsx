@@ -1,10 +1,10 @@
 import AboutBuilding from "../../assets/img/about-building.jpeg"
 const AboutHydrocut = (props) => {
  return (
-   <div class="gray-background">
+   <div class="about-us">
      <section class="container">
        <div
-         class="row d-flex justify-content-center align-items-center flex-row-reverse"
+         class="gray-background row d-flex justify-content-center align-items-center flex-row-reverse"
          id="about-hydrocut"
        >
          <div class="col-md-6 d-md-flex flex-column justify-content-center">

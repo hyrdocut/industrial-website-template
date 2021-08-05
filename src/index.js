@@ -18,7 +18,7 @@ ReactDOM.render(
     <React.StrictMode>
         {" "}
             <Router>
-                <hr />
+                {/* <hr /> */}
                 <Suspense
                     fallback={
                         <div

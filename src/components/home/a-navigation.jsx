@@ -1,8 +1,8 @@
 const Navigation = (props) => {
  return (
    <>
-     <nav class="navbar  navbar-expand-md bg-danger navigation-clean">
-       <div class="container">
+     <nav class="navbar  navbar-expand-md">
+       <div class="container-fluid">
          <a class="navbar-brand" href="#">
            Hydrocut
          </a>
