@@ -14,7 +14,7 @@ $blue-alpha: rgba(54, 55, 97, 0.329)
     font-weight: 400
     // border: .00001px dotted 
     box-sizing: content-box
-    background-color: $blue-background
+    // background-color: $blue-background
     &::selection
         background: #ffa
         
@@ -45,18 +45,18 @@ $blue-alpha: rgba(54, 55, 97, 0.329)
     color: $blue-light
     width: 85%
 
-#header,
-#about-hydrocut,
-#features
-    height: 82vh
-    overflow: visible
+#header
+    height: 100vh
+
+#about-hydrocut
+    padding: 150px 0
+// #features
 
 // #about-hydrocut
 //     background: $blue-background-secondary
-.about-us, #about-hydrocut
+.about-us, #about-hydrocut, #about-hydrocut *
     background: $blue-background-secondary
-#categories
-    height: 40vh
+    z-index: 2
 
 .gray-background
     background: rgb(240, 240, 255)
@@ -128,12 +128,22 @@ body
 .categories-card
     height: 100%
     width: 100%
-    background: rgb(240, 240, 255)
+    // background: rgb(240, 240, 255)
     border-radius: 10px
-.product-card
-    background: rgb(240, 240, 255)
+.categories-text
+    font-weight: bold
+    position: relative
+    top: -60px
+    padding: 20px
+    background: #fffa
+.categories-image
+    border-radius: 5px
+.product-card *
+    color: white !important
+    background: $blue-light
     border-radius: 30px
     color: $blue-primary
+    // background: red !important
 
 // .bg-pattern
 //     background-image: url("../img/header-pattern.png")
