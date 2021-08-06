@@ -14,7 +14,7 @@ const Home = (props) => {
       <Header />
       <AboutHydrocut />
       <Categories />
-      <Features />
+      {/* <Features /> */}
       <Products />
       {/* <Testimonials/> */}
       <ContactUs />
