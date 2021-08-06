@@ -10,7 +10,8 @@ import "./index.css";
 import "bootstrap/dist/css/bootstrap.css";
 // import styles for wiper
 import "swiper/swiper.scss";
-import "swiper/components/effect-fade/effect-fade.scss";
+import "swiper/components/effect-cube/effect-cube.scss";
+import "swiper/components/navigation/navigation.scss";
 <script src="https://accounts.google.com/gsi/client" async defer></script>;
 // TODO: Add bootstrap
 AOS.init();
